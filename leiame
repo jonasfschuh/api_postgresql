@@ -19,4 +19,14 @@ create table todos (id serial primary key, name varchar, description text, done 
 
 go run main.go
 
+para atualizar
+--------------
+
+go mod tidy
+gorlang.org
+go env
+go version
+go get -u github.com/go-sql-driver/mysql
+
+postman
 
